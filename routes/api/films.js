@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
 router.post('/', async (req, res)=>{
     const film = await Film.create(req.body);
     res.json(film)
-});
+});    
 
 router.put('/:filmid', async (req, res)=>{
     await Film.update(req.body, {
