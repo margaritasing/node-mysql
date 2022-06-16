@@ -2,8 +2,8 @@ const Sequelize = require('sequelize')
 
 const FilmModel = require('./models/films')
 
-const sequelize = new Sequelize('node','root','123456', {
-    host: '127.0.0.1',
+const sequelize = new Sequelize('nsY6MVxofg','nsY6MVxofg','Ij4i5iQMax', {
+    host: 'remotemysql.com',
     dialect:'mysql'
 });
 
