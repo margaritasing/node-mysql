@@ -45,7 +45,7 @@ const createToken = (user) =>{
         const payload = {
             usuarioId: user.id,
             createdAt: moment().unix(),
-            expiredAt: moment().add(30, 'minutes').unix()
+            expiredAt: moment().add(320, 'minutes').unix()
         }
 
         return  jwt.encode(payload, 'Alexander Freites Huggins')
