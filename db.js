@@ -8,7 +8,7 @@ const PersonajeModel = require('./models/personaje');
 const SerieModel = require('./models/serie');
 
 
-const sequelize = new Sequelize('nsY6MVxofg','nsY6MVxofg','Ij4i5iQMax', {
+const sequelize = new Sequelize('aqui va el usuario de la db','nsY6MVxofg','aqui va la clave de la db', {
     host: 'remotemysql.com',
     dialect:'mysql'
 });
